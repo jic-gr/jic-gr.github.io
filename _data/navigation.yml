@@ -1,6 +1,6 @@
 - name: HOME
   link: /
-- name: IBM Champions
+- name: IBM_Champions
   link: /about/
 - name: Blog
   link: /blog/
