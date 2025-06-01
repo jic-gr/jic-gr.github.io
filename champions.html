@@ -1,0 +1,16 @@
+---
+layout: default
+title: champions
+---
+<h3>IBMチャンピオンズ</h3>
+
+<ul>
+  {% for champion in site.champions %}
+    <li class="md-5">
+      <h3><a href="{{ champion.url }}">{{ champion.name_ja }}</a></h3>
+      <p>{{ champion.date | date_to_string }}, {{champion.name_en}}<br />
+      <!--<p>{{ champion.excerpt }}</p>-->
+      {{ champion.content | markdownify | strip_html | truncatewords: 20 }}</p>
+    </li>
+  {% endfor %}
+</ul>

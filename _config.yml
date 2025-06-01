@@ -3,6 +3,8 @@ timezone: Asia/Tokyo
 collections:
   authors:
     output: true
+  champions:
+    output: true
 
 #theme: jekyll-theme-cayman
 #theme: jekyll-theme-midnight

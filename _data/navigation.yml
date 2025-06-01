@@ -1,8 +1,10 @@
 - name: HOME
   link: /
 - name: IBM_Champions
-  link: /about/
+  link: /champions/
 - name: Blog
   link: /blog/
 - name: Group
   link: /group/
+- name: AboutUs
+  link: /about/
