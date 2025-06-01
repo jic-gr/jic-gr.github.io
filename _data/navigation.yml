@@ -1,8 +1,8 @@
-- name: ホーム
+- name: HOME
   link: /
-- name: IBMチャンピオンとは
+- name: IBM Champions
   link: /about/
-- name: ブログ
+- name: Blog
   link: /blog/
-- name: ユーザー会
+- name: Group
   link: /group/
